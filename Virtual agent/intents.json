@@ -1,0 +1,24 @@
+{"intents":
+	[
+		{
+			"tag":"greeting",
+			"patterns": ["Hey","Hello"],
+			"responses": ["hello Sir!","Hello, what can I do for you?"]
+		},
+		{
+			"tag":"add_dodo",
+			"patterns": ["I want to add a todo","ad a new todo","add atodo to my list","new item on my todo list"],
+			"responses": [""]
+		},
+		{
+			"tag":"show_todos",
+			"patterns": ["Show me todos","what are my todos","What is on my todo List"],
+			"responses": [""]
+		},
+		{
+			"tag":"exit",
+			"patterns": ["Buy","Stop","Quit","I want to quit","Goodbye","I want to exit","I have to go"],
+			"responses": [""]
+		}
+	]
+}

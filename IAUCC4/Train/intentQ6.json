@@ -1,0 +1,14 @@
+{"intents":
+	[
+		{
+			"tag":"NonExpliquer",
+			"patterns": ["je ne veux pas","je ne veux pas","inutile", "ca ne m'interesse pas", "non je ne suis pas intéresser","non"],
+			"responses": ["NonExpliquer"]
+		},
+		{
+			"tag":"OuiExpliquer",
+			"patterns": ["je veux savoir","explique moi","je veux plus de reneignements","donner moi plus de renseignements","c'est quoi?","oui"],
+			"responses": ["OuiExpliquer"]
+		}
+	]
+}

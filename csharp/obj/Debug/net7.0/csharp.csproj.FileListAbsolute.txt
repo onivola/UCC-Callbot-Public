@@ -1,0 +1,17 @@
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\csharp.exe
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\csharp.deps.json
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\csharp.runtimeconfig.json
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\csharp.dll
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\csharp.pdb
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.csproj.AssemblyReference.cache
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.AssemblyInfoInputs.cache
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.AssemblyInfo.cs
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.csproj.CoreCompileInputs.cache
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.dll
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\refint\csharp.dll
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.pdb
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.genruntimeconfig.cache
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\ref\csharp.dll
+E:\Travaille\IAUCC\csharp\obj\Debug\net7.0\csharp.csproj.CopyComplete
+E:\Travaille\IAUCC\csharp\bin\Debug\net7.0\OzekiSDK.dll

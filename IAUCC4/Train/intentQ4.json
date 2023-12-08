@@ -1,0 +1,14 @@
+{"intents":
+	[
+		{
+			"tag":"Noter",
+			"patterns": ["j'ai noté","c'est noté", "ok", "j'ai fini de noter","c'est ok","noter","oui"],
+			"responses": ["Noter"]
+		},
+		{
+			"tag":"Repeter",
+			"patterns": ["non","pouvez-vous répéter s'il vous plait","répetez s'il-vous-plait","répète","répète le moi","j'ai pas entendu","j'ai pas noter"],
+			"responses": ["Repeter"]
+		}
+	]
+}

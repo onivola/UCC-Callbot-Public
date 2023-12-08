@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python3-sipsimple
+Version: 5.2.6
+Summary: SIP SIMPLE implementation for Python
+Home-page: https://sipsimpleclient.org
+Author: AG Projects
+Author-email: support@ag-projects.com
+License: GPL
+Platform: Platform Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Provides: sipsimple
+License-File: LICENSE

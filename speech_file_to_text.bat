@@ -1,0 +1,2 @@
+python speech_file_to_text.py
+pause

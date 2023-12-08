@@ -1,0 +1,67 @@
+
+SIP SIMPLE client SDK dependencies
+----------------------------------
+
+Home page: http://sipsimpleclient.org
+
+SIP SIMPLE SDK depends upon the following third party C sources:
+
+- PJSIP base revision 210 from 2020-02-14
+  https://github.com/pjsip/pjproject/archive/2.10.tar.gz
+
+- ZRTP tag 6b3cd8e6783642292bad0c21e3e5e5ce45ff3e03
+  https://github.com/wernerd/ZRTPCPP.git
+
+Fetch and patch the dependencies using get_dependencies.sh script
+
+
+AMR codec
+---------
+
+Narrow-band
+
+   * Install opencore-amr using Brew or apt-get 
+
+   On Mac:
+   * export SIPSIMPLE_AMR_NB_PATH="/usr/local/opt/opencore-amr"
+
+Wide-band
+
+Download the tar archive from:
+
+https://sourceforge.net/projects/opencore-amr/files/vo-amrwbenc
+ 
+On Mac:
+
+     ./configure --prefix=/usr/local/opt/vo-amrwbenc
+     make 
+     make install
+     export SIPSIMPLE_AMR_WB_PATH="/usr/local/opt/vo-amrwbenc"
+
+On Linux:
+
+     ./configure --prefix=/usr/local/
+     make 
+     make install
+
+
+In ./sipsimple/configuration/settings.py add the AMR codecs to audio_codec_list:
+
+    default=AudioCodecList(('opus', 'G722', 'PCMU', 'PCMA', 'speex', 'iLBC', 'GSM', 'AMR-WB')))
+
+
+Python dependencies available from AG Projects repositories:
+
+ * python3-application      http://download.ag-projects.com/SipSimpleSDK/Python3/ 
+ * python3-eventlib         http://download.ag-projects.com/SipSimpleSDK/Python3/ 
+ * python3-gnutls           http://download.ag-projects.com/SipSimpleSDK/Python3/
+ * python3-otr              http://download.ag-projects.com/SipSimpleSDK/Python3/
+ * python3-msrplib          http://download.ag-projects.com/SipSimpleSDK/Python3/
+ * python3-xcaplib          http://download.ag-projects.com/SipSimpleSDK/Python3/
+
+The dependencies for each package can be found inside debian/control file
+
+On a Debian or Ubuntu based system you can install their dependencies using:
+
+sudo mk-build-deps --install debian/control
+

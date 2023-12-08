@@ -1,0 +1,8 @@
+#!/bin/sh
+
+./get_dependencies.sh
+
+chmod +x deps/pjsip/configure
+chmod +x deps/pjsip/aconfigure
+python3 setup.py build_ext --inplace "$@"
+test -d build && python3 setup.py clean

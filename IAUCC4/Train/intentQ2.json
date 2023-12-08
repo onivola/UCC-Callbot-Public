@@ -1,0 +1,19 @@
+{"intents":
+	[
+		{
+			"tag":"Locataire",
+			"patterns": ["je loue la maison","je suis locataire", "je loue un appartement", "locataire","non","Donc à terre"],
+			"responses": ["Locataire"]
+		},
+		{
+			"tag":"Proprietaire",
+			"patterns": ["propriétaire","la maison est a nous","la maison m'appartienne","je suis propriétaire","je suis le propriétaire","Je vais chez le propriétaire"],
+			"responses": ["Proprietaire"]
+		},
+		{
+			"tag":"NonExpliquer",
+			"patterns": ["je ne veux pas","inutile", "ca ne m'interesse pas", "non je ne suis pas intéresser","non","pas intéresser","je vous dit que je ne suis pas intéresser"],
+			"responses": ["NonExpliquer"]
+		}
+	]
+}

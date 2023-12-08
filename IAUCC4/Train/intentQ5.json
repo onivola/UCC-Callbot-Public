@@ -1,0 +1,14 @@
+{"intents":
+	[
+		{
+			"tag":"Nonindividuel",
+			"patterns": ["non","non ce n'est pas","ce n'est pas le cas", "ce n'est pas une maison individuelle", "c'est un appartement","j'habite dans un immeuble d'habitation"],
+			"responses": ["Nonindividuel"]
+		},
+		{
+			"tag":"Ouiindividuel",
+			"patterns": ["c'est une maison individuelle","oui c'est bien une maison individuelle","oui","Exactement"],
+			"responses": ["Ouiindividuel"]
+		}
+	]
+}

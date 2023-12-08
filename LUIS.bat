@@ -1,0 +1,2 @@
+python LUIS.py
+pause

@@ -1,0 +1,2 @@
+python recVoiceMic.py
+pause

@@ -1,0 +1,117 @@
+
+SIP SIMPLE SDK installation on Linux
+------------------------------------
+
+Home page: http://sipsimpleclient.org
+
+
+This document described the installation procedure on 
+Linux operating systems.
+
+
+Step 1. Prerequisites
+---------------------
+
+Install the C compiling environment, Python 3 and the development version
+for the following packages:
+
+ * openssl
+ * ffmpeg
+
+
+Step 2. Install system dependencies
+-----------------------------------
+
+SIP SIMPLE SDK depends upon the following third party sources:
+
+- PJSIP base revision 210 from 2020-02-14
+  https://github.com/pjsip/pjproject/archive/2.10.tar.gz
+
+- ZRTP tag 6b3cd8e6783642292bad0c21e3e5e5ce45ff3e03
+  https://github.com/wernerd/ZRTPCPP.git
+
+
+Fetch and patch the dependencies using ./get_dependencies.sh script
+
+See Dependencies.txt for detailed description of the required libraries and
+their minimum version number.
+
+Use the appropriate package manager for your Linux distribution to install
+the following packages, notice the minimum version numbers.
+
+You can use the easy_install script provided by the python-setuptools
+package to install the packages:
+
+sudo pip3 install -U cython dnspython lxml twisted python-dateutil \
+greenlet zope.interface requests
+
+
+Step 3. Install AG Projects dependencies
+----------------------------------------
+
+ - python3-application
+ - python3-eventlib
+ - python3-gnutls
+ - python3-otr
+ - python3-msrplib
+ - python3-xcaplib
+
+
+For each of them, in the exact order as listed above, retrieve the packages
+as follows:
+
+Using darcs:
+
+darcs clone http://devel.ag-projects.com/repositories/PROJECT
+
+replace PROJECT with each of the names above
+
+As tar archives from:
+
+http://download.ag-projects.com/SipSimpleSDK/Python3/
+
+Install these packages by going into each directory.
+
+Using pip3 inside your user environment:
+
+pip3 install --user .
+
+System-wide using setup.py:
+
+sudo python3 setup.py install
+
+As a debian package:
+
+./makedeb.sh
+
+The debian package can be found inside ./dist folder
+
+sudo dpkg -i *.deb
+
+
+Step 4. Install the SDK
+-----------------------
+
+Using pip3 inside your user environment:
+
+pip3 install --user .
+
+System-wide using setup.py:
+
+sudo python3 setup.py install
+
+As a debian package:
+
+./makedeb.sh
+
+The debian package can be found inside ./dist folder
+
+sudo dpkg -i *.deb
+
+
+Step 5. Testing the SDK
+-----------------------
+
+Use the command line tools provided by sipclients3 package, the executables
+start with sip- prefix.
+

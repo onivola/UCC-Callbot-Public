@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "csharp/1.0.0": {
+        "dependencies": {
+          "OzekiSDK": "10.3.196.0"
+        },
+        "runtime": {
+          "csharp.dll": {}
+        }
+      },
+      "OzekiSDK/10.3.196.0": {
+        "runtime": {
+          "OzekiSDK.dll": {
+            "assemblyVersion": "10.3.196.0",
+            "fileVersion": "10.3.196.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OzekiSDK/10.3.196.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

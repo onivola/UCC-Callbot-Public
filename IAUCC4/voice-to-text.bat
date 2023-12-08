@@ -1,0 +1,2 @@
+python voicetotext.py
+pause

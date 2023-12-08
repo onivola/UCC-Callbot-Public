@@ -1,0 +1,2 @@
+python playwave.py
+pause

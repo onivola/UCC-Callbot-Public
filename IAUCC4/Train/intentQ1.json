@@ -1,0 +1,14 @@
+{"intents":
+	[
+		{
+			"tag":"NonVerifier",
+			"patterns": ["je ne veux pas","je ne veux pas", "ca m'interesse pas", "non je ne suis pas intéresser","non"],
+			"responses": ["NonVerifier"]
+		},
+		{
+			"tag":"OuiVerifier",
+			"patterns": ["ok","oui","d'accord","oui pas de probleme","c'est quoi?"],
+			"responses": ["OuiVerifier"]
+		}
+	]
+}

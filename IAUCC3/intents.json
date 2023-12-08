@@ -1,0 +1,34 @@
+{"intents":
+	[
+		{
+			"tag":"greeting",
+			"patterns": ["Salut","Hey", "Bonjour", "Coco"],
+			"responses": ["Salut","Hey", "Bonjour", "Coco"]
+		},
+		{
+			"tag":"goodbye",
+			"patterns": ["Au revoir","A tout de suite","A tout à l'heure"],
+			"responses": ["Au revoir","A tout de suite","A tout à l'heure"]
+		},
+		{
+			"tag":"old",
+			"patterns": ["how old","How old is florian","What is your age","how old are you","age?"],
+			"responses": ["I'm 1 years old","I'm 1 years old","I'm 1 years old"]
+		},
+		{
+			"tag":"name",
+			"patterns": ["what is your name","what should I call you","what your name?","who are you?","Can you tell me your name"],
+			"responses": ["You can call me Neural","I'm Neural!","I'm Neural the assistant of Florian!"]
+		},
+		{
+			"tag":"hours",
+			"patterns": ["when are you guys open","what are your hours","hours"],
+			"responses": ["24/7"]
+		},
+		{
+			"tag":"about",
+			"patterns": ["who are you","tell me about you"],
+			"responses": ["I'm chat bot"]
+		}
+	]
+}

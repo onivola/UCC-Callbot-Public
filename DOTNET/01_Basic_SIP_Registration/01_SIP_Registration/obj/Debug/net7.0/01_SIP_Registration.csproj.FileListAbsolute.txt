@@ -1,0 +1,5 @@
+E:\Travaille\IAUCC\DOTNET\01_Basic_SIP_Registration\01_SIP_Registration\obj\Debug\net7.0\01_SIP_Registration.csproj.AssemblyReference.cache
+E:\Travaille\IAUCC\DOTNET\01_Basic_SIP_Registration\01_SIP_Registration\obj\Debug\net7.0\01_SIP_Registration.GeneratedMSBuildEditorConfig.editorconfig
+E:\Travaille\IAUCC\DOTNET\01_Basic_SIP_Registration\01_SIP_Registration\obj\Debug\net7.0\01_SIP_Registration.AssemblyInfoInputs.cache
+E:\Travaille\IAUCC\DOTNET\01_Basic_SIP_Registration\01_SIP_Registration\obj\Debug\net7.0\01_SIP_Registration.AssemblyInfo.cs
+E:\Travaille\IAUCC\DOTNET\01_Basic_SIP_Registration\01_SIP_Registration\obj\Debug\net7.0\01_SIP_Registration.csproj.CoreCompileInputs.cache

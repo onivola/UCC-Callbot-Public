@@ -1,0 +1,14 @@
+{"intents":
+	[
+		{
+			"tag":"NonElectrique",
+			"patterns": ["charbon", "cheminées","pompe à chaleur"],
+			"responses": ["NonElectrique"]
+		},
+		{
+			"tag":"OuiElectrique",
+			"patterns": ["électrique","Electrique","Electronique"],
+			"responses": ["OuiElectrique"]
+		}
+	]
+}

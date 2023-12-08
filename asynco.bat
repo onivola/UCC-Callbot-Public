@@ -1,0 +1,2 @@
+python asynco.py
+pause

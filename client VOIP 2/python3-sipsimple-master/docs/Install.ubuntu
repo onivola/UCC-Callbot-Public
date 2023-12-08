@@ -1,0 +1,38 @@
+
+SIP SIMPLE SDK installation on Ubuntu
+-------------------------------------
+
+Home page: http://sipsimpleclient.org
+
+This document describes the installation procedure on Ubuntu operating
+systems from the official public repository maintained by AG Projects.
+
+
+Configure Repository
+--------------------
+
+Install the AG Projects debian software signing key: 
+
+wget http://download.ag-projects.com/agp-debian-gpg.key
+sudo apt-key add agp-debian-gpg.key
+
+Add the repository to /etc/apt/sources.list (run commands as root):
+
+echo "deb       http://ag-projects.com/ubuntu `lsb_release -c -s` main" >> /etc/apt/sources.list
+echo "deb-src   http://ag-projects.com/ubuntu `lsb_release -c -s` main" >> /etc/apt/sources.list
+
+
+Update the list of available packages:
+
+sudo apt-get update
+
+
+Install SIP SIMPLE client SDK:
+
+sudo apt-get install python-sipsimple
+
+
+Install the Command Line Clients:
+
+sudo apt-get install sipclients
+

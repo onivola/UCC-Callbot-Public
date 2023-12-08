@@ -1,0 +1,14 @@
+
+Developer guide
+---------------
+
+The software allows you to create elegant real-time communications
+applications without having to read the +1200 RFC documents behind it. As a
+library with a high-level API, the toolkit can be used to add voice, IM and
+Presence functionality to any network devices as long as Python/C
+environment is supported by such platform.
+
+The developer guide is available at:
+
+http://sipsimpleclient.org/projects/sipsimpleclient/wiki/SipMiddlewareApi
+

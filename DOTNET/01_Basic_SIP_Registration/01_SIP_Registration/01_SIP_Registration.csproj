@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Choose>
+    <When Condition="Exists('bin\OzekiSDK.dll')">
+      <ItemGroup>
+        <Reference Include="OzekiSDK, Culture=neutral, PublicKeyToken=4812fb35129b8487, processorArchitecture=MSIL">
+          <HintPath>bin\OzekiSDK.dll</HintPath>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+      </ItemGroup>
+    </When>
+    
+  </Choose>
+</Project>
